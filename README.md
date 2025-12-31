@@ -1,7 +1,7 @@
 # TeamSpeag_CS2_GSI
 ## 1. Установка конфига ##
 Перемистить файл gamestate_integration_GSI.cfg в папку cfg по пути ```...steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg```
-## 2. запустить сервер ##
+## 2. Запустить сервер ##
 В файлу runserver убедиться что host и port совпадают с uri в файле gamestate_integration_GSI.cfg\
 В Строках
 ```python
@@ -9,7 +9,7 @@
   os.system('cd "C:\Program Files (x86)\Steam\steamapps\common\Soundpad" & Soundpad -rc DoPlaySoundFromCategory(-1,1)')
 ```
 нужно указать свою директорию для Soundpad и в параметрах ```DoPlaySoundFromCategory(-1,2)``` указать свои значения где первый отвечает за номер категории, а второй за номер звука
-## 3. скачать кабель ##
+## 3. Скачать кабель ##
 Так же понадобиться скачать [Virtual Audio Channel](https://www.4shared.com/rar/anJA4ww-/virtual_audio_cable_410_-_vac4.html)
 В настройках саундпада нужно поставить галочку на Line1 (Настройки -> Устройства)
 ## 4. Настройка TeamSpeak ##
